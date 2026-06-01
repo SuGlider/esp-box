@@ -28,6 +28,7 @@ IGNORE_WARNINGS = [
     r'warning: unknown kconfig symbol \'IO_GLITCH_FILTER_TIME_MS\' assigned to*',
     r'warning: unknown kconfig symbol \'BSP_TOUCH_BUTTON\' assigned to*',
     r'warning: default value 0 on ESPNOW_OTA_SEND_FORWARD_TTL',
+    r'\'esp_lcd_touch_get_coordinates\' is deprecated',
 ]
 
 def _get_idf_version():
