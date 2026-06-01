@@ -172,11 +172,9 @@ build_example_esp_joystick:
     - .rules:build:example_esp_joystick
   parallel:
     matrix:
-      - IMAGE: espressif/idf:release-v5.1
-      - IMAGE: espressif/idf:release-v5.2
       - IMAGE: espressif/idf:release-v5.3
       - IMAGE: espressif/idf:release-v5.4
-      # - IMAGE: espressif/idf:release-v5.5 esp_now do not support release-v5.5
+      - IMAGE: espressif/idf:release-v5.5
   variables:
     EXAMPLE_DIR: examples/esp_joystick
 
